@@ -14,6 +14,7 @@ public class LinkedList {
             first = new LinkedList(data);
             first.next = null;
             count++;
+            System.out.println(count);
             return;
         }
 
